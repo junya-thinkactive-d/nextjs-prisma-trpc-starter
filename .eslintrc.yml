@@ -1,0 +1,26 @@
+plugins:
+  - sort-keys-custom-order
+  - simple-import-sort
+  - import
+  - unused-imports
+  - tailwindcss
+extends:
+  - next/core-web-vitals
+  - eslint:recommended
+  - prettier
+  - plugin:tailwindcss/recommended
+rules:
+  simple-import-sort/imports: error
+  simple-import-sort/exports: error
+  import/first: error
+  import/newline-after-import: error
+  import/no-duplicates: error
+  unused-imports/no-unused-imports: error
+  '@next/next/no-img-element': off
+  tailwindcss/no-custom-classname:
+    - error
+    - whitelist: []
+settings:
+  tailwindcss:
+    groupByResponsive: true
+    whiteList: []
