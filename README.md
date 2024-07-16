@@ -1,4 +1,4 @@
-# Next.js + Prisma + tRPC Starter Template
+# Next.js + Prisma + tRPC Supabase Starter Template
 
 ## Table of Contents
 
