@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-prisma-trpc-starter",
+  "name": "nextjs-prisma-trpc-supabase-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
